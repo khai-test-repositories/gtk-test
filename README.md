@@ -11,13 +11,19 @@ Khai's test repo for GTK+ APIs
 ## Build
 
 ```bash
-./build.sh
+npm run build
 ```
 
 ## Run
 
 ```bash
-./run.sh
+npm start
+```
+
+## Build and Run
+
+```bash
+npm test
 ```
 
 ## License
