@@ -1,0 +1,21 @@
+
+{
+	"name": "gtk-test",
+	"version": "0.0.0",
+	"description": "Khai's test repo for GTK+ APIs",
+	"scripts": {
+		"build": "bash -c ./build.sh",
+        "start": "bash -c ./run.sh",
+        "test": "bash -c ./test.sh"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/khai-test-repositories/gtk-test.git"
+	},
+	"author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
+	"license": "WTFPL",
+	"bugs": {
+		"url": "https://github.com/khai-test-repositories/gtk-test/issues"
+	},
+	"homepage": "https://github.com/khai-test-repositories/gtk-test#readme"
+}
