@@ -6,7 +6,8 @@
 	"scripts": {
 		"build": "bash -c ./build.sh",
         "start": "bash -c ./run.sh",
-        "test": "bash -c ./test.sh"
+        "test": "bash -c ./test.sh",
+		"clean": "bash -c ./clean.sh"
 	},
 	"repository": {
 		"type": "git",
