@@ -1,2 +1,2 @@
 
-./main.exe
+./.out/main.exe

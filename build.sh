@@ -1,2 +1,2 @@
 
-./compile.sh && echo "SUCCEED" || (echo "FAILED" 1>&2; exit 1)
+mkdir -p ./.out && ./compile.sh && echo "SUCCEED" || (echo "FAILED" 1>&2; exit 1)
