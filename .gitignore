@@ -3,6 +3,12 @@
 
 out
 quick-test
+/freeglut
+/glut
+/gl
 
 *.exe
+*.out
+*.obj
+*.o
 *.log
