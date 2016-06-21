@@ -42,3 +42,4 @@ configuration: Release
 
 build_script:
     - cmd: npm run build
+    - cmd: pack.win32.x86_64.bat
