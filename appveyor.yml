@@ -20,9 +20,14 @@ init:
 clone_folder: C:\gtk-test
 
 artifacts:
-    - path: .out\main.exe
-      name: gtk-test.dependent.exe
-      type: exe
+
+    - path: .out\release*.zip
+      name: ZIP Archive
+      type: zip
+
+    - path: .out\release*.7z
+      name: 7z Archive
+      type: 7z
 
 matrix:
     fast_finish: true
