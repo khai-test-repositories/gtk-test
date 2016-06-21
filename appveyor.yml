@@ -1,5 +1,5 @@
 
-version: 0.0.{build}
+version: v0.0.0.appveyor.{build}
 
 branches:
     only:
