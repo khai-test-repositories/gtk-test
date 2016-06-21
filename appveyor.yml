@@ -9,8 +9,8 @@ branches:
 skip_non_tags: true
 
 init:
-    - cmd: echo Current Directory: %cd%
-    - cmd: dir
+    - echo Current Directory: %cd%
+    - dir
     - choco install msys2
     - mklink /J C:\msys64 C:\tools\msys64
     - set MSYS_DIR=C:\msys64
