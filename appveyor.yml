@@ -23,7 +23,8 @@ clone_folder: C:\gtk-test
 
 artifacts:
     - path: .out\main.exe
-    - name: gtk-test.dependent.exe
+      name: gtk-test.dependent.exe
+      type: exe
 
 matrix:
     fast_finish: true
