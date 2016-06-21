@@ -9,8 +9,6 @@ branches:
 skip_non_tags: true
 
 init:
-    - echo Current Directory is %cd%
-    - dir
     - echo Content of drive C
     - dir ..
     - set MSYS_DIR=C:\msys64
