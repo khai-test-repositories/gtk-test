@@ -9,7 +9,6 @@ branches:
 skip_non_tags: true
 
 init:
-    - echo Before Build Test %TEST_APPVEYOR_ENV%
     - echo Content of drive C
     - dir ..
     - set MSYS_DIR=C:\msys64
@@ -40,11 +39,6 @@ platform:
     - Any CPU
 
 configuration: Release
-
-after_deploy:
-    - echo After Deploy %TEST_APPVEYOR_ENV%
-    - echo Current Working Directory %cd%
-    - dir
 
 build_script:
     - cmd: npm run build
