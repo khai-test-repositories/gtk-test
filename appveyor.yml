@@ -21,6 +21,10 @@ init:
 
 clone_folder: C:\gtk-test
 
+artifacts:
+    - path: .out\main.exe
+    - name: gtk-test.dependent.exe
+
 matrix:
     fast_finish: true
 
