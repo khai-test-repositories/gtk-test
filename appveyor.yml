@@ -9,13 +9,13 @@ branches:
 skip_non_tags: true
 
 init:
-    - cmd: choco install msys2
-    - cmd: mklink /J C:\msys64 C:\tools\msys64
-    - cmd: set MSYS_DIR=C:\msys64
-    - cmd: set MINGW_DIR=%MSYS_DIR%\mingw64
-    - cmd: set PATH=%MINGW_DIR%\bin;%MSYS_DIR%\usr\bin;%PATH%
-    - cmd: pacman -S mingw-w64-x86_64-gtk3
-    - cmd: pacman -S mingw-w64-x86_64-gtkmm3
+    - choco install msys2
+    - mklink /J C:\msys64 C:\tools\msys64
+    - set MSYS_DIR=C:\msys64
+    - set MINGW_DIR=%MSYS_DIR%\mingw64
+    - set PATH=%MINGW_DIR%\bin;%MSYS_DIR%\usr\bin;%PATH%
+    - pacman -S mingw-w64-x86_64-gtk3
+    - pacman -S mingw-w64-x86_64-gtkmm3
 
 clone_folder: C:\gtk-test
 
