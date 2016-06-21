@@ -1,0 +1,35 @@
+
+version: 0.0.{build}
+
+branches:
+    only:
+        - release
+        - test
+
+skip_non_tags: true
+
+init:
+    - choco install msys2
+    - pacman -S mingw-w64-x86_64-gtk3
+    - pacman -S mingw-w64-x86_64-gtkmm3
+
+clone_folder: C:\gtk-test
+
+matrix:
+    fast_finish: true
+
+services:
+    - msys
+    - bash
+    - mingw
+
+install:
+    - cmd: npm install
+
+platform:
+    - Any CPU
+
+configuration: Release
+
+build_script:
+    - cmd: npm run build
