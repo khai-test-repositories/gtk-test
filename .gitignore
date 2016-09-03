@@ -11,6 +11,8 @@ quick-test
 *.obj
 *.o
 *.log
+/.vscode
+!/.vscode/*.json
 
 # My own
 quick-test
